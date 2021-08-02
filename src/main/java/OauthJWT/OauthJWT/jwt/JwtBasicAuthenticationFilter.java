@@ -1,10 +1,11 @@
 package OauthJWT.OauthJWT.jwt;
 
+import OauthJWT.OauthJWT.dto.LoginRequestDto;
+import OauthJWT.OauthJWT.model.UserMaster;
+import OauthJWT.OauthJWT.repository.UserRepository;
+import OauthJWT.OauthJWT.service.PrincipalDetailsService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.tmax.eTest.Auth.dto.LoginRequestDto;
-import com.tmax.eTest.Auth.repository.UserRepository;
-import com.tmax.eTest.Auth.service.PrincipalDetailsService;
-import com.tmax.eTest.Common.model.user.UserMaster;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

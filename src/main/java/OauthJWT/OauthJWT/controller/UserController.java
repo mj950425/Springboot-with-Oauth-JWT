@@ -1,9 +1,10 @@
 package OauthJWT.OauthJWT.controller;
 
-import com.tmax.eTest.Auth.dto.PrincipalDetails;
-import com.tmax.eTest.Auth.dto.ResourceNotFoundExceptionDto;
-import com.tmax.eTest.Auth.repository.UserRepository;
-import com.tmax.eTest.Common.model.user.UserMaster;
+
+import OauthJWT.OauthJWT.dto.PrincipalDetails;
+import OauthJWT.OauthJWT.dto.ResourceNotFoundExceptionDto;
+import OauthJWT.OauthJWT.model.UserMaster;
+import OauthJWT.OauthJWT.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;

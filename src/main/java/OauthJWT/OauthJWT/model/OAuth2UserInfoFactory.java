@@ -1,6 +1,7 @@
 package OauthJWT.OauthJWT.model;
 
-import com.tmax.eTest.Auth.exception.OAuth2AuthenticationProcessingException;
+
+import OauthJWT.OauthJWT.exception.OAuth2AuthenticationProcessingException;
 
 import java.util.Map;
 

@@ -14,7 +14,6 @@ import java.util.UUID;
 public class AuthService {
 
     @Autowired
-    @Qualifier("AU-UserRepository")
     private UserRepository userRepository;
 
     @Autowired

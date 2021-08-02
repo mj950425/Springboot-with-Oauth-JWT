@@ -1,6 +1,6 @@
 package OauthJWT.OauthJWT.jwt;
 
-import com.tmax.eTest.Auth.dto.PrincipalDetails;
+import OauthJWT.OauthJWT.dto.PrincipalDetails;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

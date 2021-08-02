@@ -1,6 +1,6 @@
 package OauthJWT.OauthJWT.dto;
 
-import com.tmax.eTest.Auth.model.Role;
+import OauthJWT.OauthJWT.model.Role;
 import lombok.Data;
 
 import javax.persistence.EnumType;
